@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.Maintopcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 96px;
+    flex-wrap: wrap;
+    gap: 32px;
+
+}
+
+.Leftsideoftop {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Rightsideoftop {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    flex: 1;
+    background-color: grey;
+}
+
+h5 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.topline {
+    display: flex;
+    padding-left: 96px;
+    padding-right: 96px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+nav > a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: block;
+}
+
+.buttondiv {
+    max-width: 100px;
+}
+
+
+#Signupattop {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    color: white;
+}
+
+#Signupattop:hover {
+    background-color: grey;
+}

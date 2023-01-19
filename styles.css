@@ -88,17 +88,18 @@ h1 {
 
 .buttondiv {
     max-width: 100px;
+    border-radius: 30px;
 }
 
 
-#Signupattop {
+#Signupattop, #Signupatbottom {
     width: 100%;
     padding: 8px 16px;
     background-color: #3882F6;
     color: white;
 }
 
-#Signupattop:hover {
+#Signupattop:hover, #Signupatbottom:hover {
     background-color: grey;
 }
 
@@ -185,5 +186,27 @@ h2 {
     background-color: #3882F6;
     display: flex;
     justify-items: space-around;
+    align-items: center;
     gap: 64px;
+}
+
+.calldiv {
+    min-height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 32px;
+    gap: 2px;
+}
+
+.largecalltext {
+    font-size: 21px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.callsubtext {
+    color: #F9FAF8;
+    font-size: 16px;
 }

@@ -93,10 +93,12 @@ h1 {
 
 
 #Signupattop, #Signupatbottom {
-    width: 100%;
-    padding: 8px 16px;
+    width: 120px;
+    height: 32px;
+    padding: 8px 16px 24px 16px;
     background-color: #3882F6;
     color: white;
+    border-radius: 7px;
 }
 
 #Signupattop:hover, #Signupatbottom:hover {
@@ -182,12 +184,12 @@ h2 {
 
 .calltoaction {
     width: 900px;
-    height: 160px;
+    min-height: 160px;
     background-color: #3882F6;
     display: flex;
     justify-items: space-around;
     align-items: center;
-    gap: 64px;
+    gap: 128px;
 }
 
 .calldiv {
@@ -209,4 +211,10 @@ h2 {
 .callsubtext {
     color: #F9FAF8;
     font-size: 16px;
+}
+
+.callbutton {
+    display: flex;
+    justify-content: center;
+    padding: 0px 32px;
 }

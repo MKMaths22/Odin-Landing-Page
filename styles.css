@@ -5,6 +5,11 @@
     font-family: roboto, sans-serif;
 }
 
+#mitch {
+    max-width: 100%;
+    object-fit: cover;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -48,10 +53,12 @@ body {
     justify-content: center;
     align-items: center;
     align-self: center;
-    min-height: 200px;
-    max-height: 200px;
+    max-height: 250px;
+    min-width: 50%;
+    max-width: 400px;
     flex: 1;
     background-color: grey;
+    overflow: hidden;
 }
 
 h5 {

@@ -17,6 +17,10 @@ body {
     background-color: #1F2937;
 }
 
+.spanny {
+    font-weight: bold;
+}
+
 .Maintopcontainer {
     display: flex;
     justify-content: space-between;

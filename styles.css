@@ -10,6 +10,12 @@
     object-fit: cover;
 }
 
+#oranges {
+    max-width: 176px;
+    height: auto;
+    margin-top: 29px;
+}
+
 body {
     display: flex;
     min-height: 100vh;

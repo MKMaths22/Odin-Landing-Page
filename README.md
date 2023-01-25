@@ -6,4 +6,4 @@ Oranges image is by No_Name13 from Pixabay.
 Tangerines image is by No_Name13 from Pixabay.  
 Bananas image is by Pete Linforth from Pixabay.  
 Strawberries image is by Roberto Barresi from Pixabay.  
-I will focus on getting the layout as described in The Odin Project (TOP) instructions, and I might only decide to put some of my own resources in at the end.
+I have focused on getting the layout as described in The Odin Project (TOP) instructions and then put some of my own resources in at the end.

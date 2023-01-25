@@ -10,10 +10,11 @@
     object-fit: cover;
 }
 
-#oranges {
-    max-width: 176px;
-    height: auto;
-    margin-top: 29px;
+#oranges, #tangerines, #bananas, #strawberries {
+    max-height: 176px;
+    width: auto;
+    position: relative;
+    left: -48px;
 }
 
 body {
@@ -158,6 +159,7 @@ h2 {
     width: 192px;
     border: 8px solid #3882F6;
     border-radius: 16px;
+    overflow: hidden;
     
 }
 

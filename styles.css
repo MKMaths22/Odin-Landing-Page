@@ -139,7 +139,7 @@ h2 {
 .lineofboxes {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
     padding: 0px 16px;
     flex-wrap: wrap;
 }
@@ -179,10 +179,11 @@ h2 {
     font-style: italic;
     color: #1F2937;
     font-weight: 300;
+    width: 65vw;
 
 }
 .creditdiv {
-    margin-left: auto;
+    margin-left: 55vw;
 }
 
 .credit {
@@ -200,13 +201,13 @@ h2 {
 }
 
 .calltoaction {
-    width: 900px;
+    width: 65vw;
     min-height: 160px;
     background-color: #3882F6;
     display: flex;
     justify-items: space-around;
     align-items: center;
-    gap: 128px;
+    gap: 22vw;
 }
 
 .calldiv {
